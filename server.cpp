@@ -66,7 +66,6 @@ int main()
                 event.peer -> data = nullptr;
                 break;
             case ENET_EVENT_TYPE_NONE:
-                std::cout << "Service Event None " << std::endl;
                 break;
         }
     }
