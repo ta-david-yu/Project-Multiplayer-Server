@@ -1,7 +1,7 @@
 #include <iostream>
-#include "enet/enet.h"
+#include "enet.h"
 
-#define SERVER_PORT 32765
+#define SERVER_PORT 1234
 
 int main()
 {
@@ -18,7 +18,7 @@ int main()
     ENetAddress address;
     ENetHost* server;
 
-    address.host = ENET_HOST_ANY;
+    address.ipv6 = ENET_HOST_ANY;
     address.port = SERVER_PORT;
 
     std::cout << "Create Server Host" << std::endl;
@@ -26,7 +26,8 @@ int main()
                                32      /* allow up to 32 clients and/or outgoing connections */,
                                2      /* allow up to 2 channels to be used, 0 and 1 */,
                                0      /* assume any amount of incoming bandwidth */,
-                               0      /* assume any amount of outgoing bandwidth */);
+                               0      /* assume any amount of outgoing bandwidth */,
+                               0);
 
     if (server == nullptr)
     {
@@ -39,12 +40,11 @@ int main()
     /* Wait up to 1000 milliseconds for an event. */
     while (enet_host_service (server, & event, 1000) >= 0)
     {
-        std::cout << "Server Service Queue" << std::endl;
         switch (event.type)
         {
             case ENET_EVENT_TYPE_CONNECT:
                 printf ("A new client connected from %x:%u.\n",
-                        event.peer -> address.host,
+                        event.peer -> address.ipv6,
                         event.peer -> address.port);
                 /* Store any relevant client information here. */
                 event.peer -> data = (void *) "Client information";
@@ -66,6 +66,7 @@ int main()
                 event.peer -> data = nullptr;
                 break;
             case ENET_EVENT_TYPE_NONE:
+                std::cout << "Service Event None " << std::endl;
                 break;
         }
     }

@@ -26,13 +26,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCInformation.cmake"
   "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake"
   "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake"
-  "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake"
-  "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CheckCXXSourceCompiles.cmake"
-  "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CheckFunctionExists.cmake"
-  "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CheckIncludeFile.cmake"
-  "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CheckIncludeFileCXX.cmake"
-  "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CheckStructHasMember.cmake"
-  "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CheckTypeSize.cmake"
   "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-C.cmake"
   "D:/Program Files/JetBrains/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-CXX.cmake"
@@ -65,6 +58,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Project_Multiplayer.dir/DependInfo.cmake"
+  "CMakeFiles/Client.dir/DependInfo.cmake"
   "extern/enet/CMakeFiles/enet.dir/DependInfo.cmake"
   )

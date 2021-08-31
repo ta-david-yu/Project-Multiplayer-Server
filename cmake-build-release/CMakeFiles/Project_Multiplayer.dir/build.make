@@ -99,7 +99,7 @@ Project_Multiplayer_EXTERNAL_OBJECTS =
 
 ../out/Release/Project_Multiplayer.exe: CMakeFiles/Project_Multiplayer.dir/server.cpp.obj
 ../out/Release/Project_Multiplayer.exe: CMakeFiles/Project_Multiplayer.dir/build.make
-../out/Release/Project_Multiplayer.exe: ../out/Release/libenet.a
+../out/Release/Project_Multiplayer.exe: ../out/Release/libenet.dll.a
 ../out/Release/Project_Multiplayer.exe: CMakeFiles/Project_Multiplayer.dir/linklibs.rsp
 ../out/Release/Project_Multiplayer.exe: CMakeFiles/Project_Multiplayer.dir/objects1.rsp
 ../out/Release/Project_Multiplayer.exe: CMakeFiles/Project_Multiplayer.dir/link.txt

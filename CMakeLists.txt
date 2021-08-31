@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 
-project(Project_Multiplayer)
+#project(Project_Multiplayer)
+project(Client)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -15,10 +16,18 @@ endif ()
 
 add_subdirectory(extern/enet)
 
-add_executable(Project_Multiplayer server.cpp)
-target_link_libraries(Project_Multiplayer enet)
-target_include_directories(Project_Multiplayer PRIVATE extern/enet/include)
+#add_executable(Project_Multiplayer server.cpp)
+#target_link_libraries(Project_Multiplayer enet)
+#target_include_directories(Project_Multiplayer PRIVATE extern/enet)
+#if (CMAKE_BUILD_TYPE MATCHES Release)
+#    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Bstatic,--whole-archive -lwinpthread -Wl,--no-whole-archive")
+#    target_link_libraries(Project_Multiplayer -static-libgcc)
+#endif ()
+
+add_executable(Client test_client.cpp)
+target_link_libraries(Client enet)
+target_include_directories(Client PRIVATE extern/enet)
 if (CMAKE_BUILD_TYPE MATCHES Release)
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Bstatic,--whole-archive -lwinpthread -Wl,--no-whole-archive")
-    target_link_libraries(Project_Multiplayer -static-libgcc)
+    target_link_libraries(Client -static-libgcc)
 endif ()

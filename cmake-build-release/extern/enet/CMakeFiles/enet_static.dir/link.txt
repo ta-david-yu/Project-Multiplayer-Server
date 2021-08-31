@@ -1,0 +1,2 @@
+D:\msys64\mingw64\bin\ar.exe qc ..\..\..\out\Release\enet_static.a  CMakeFiles/enet_static.dir/enet.c.obj
+D:\msys64\mingw64\bin\ranlib.exe ..\..\..\out\Release\enet_static.a

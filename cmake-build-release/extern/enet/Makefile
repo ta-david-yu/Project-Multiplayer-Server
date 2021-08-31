@@ -144,248 +144,32 @@ enet/fast:
 	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/build
 .PHONY : enet/fast
 
-callbacks.obj: callbacks.c.obj
+enet.obj: enet.c.obj
 
-.PHONY : callbacks.obj
-
-# target to build an object file
-callbacks.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/callbacks.c.obj
-.PHONY : callbacks.c.obj
-
-callbacks.i: callbacks.c.i
-
-.PHONY : callbacks.i
-
-# target to preprocess a source file
-callbacks.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/callbacks.c.i
-.PHONY : callbacks.c.i
-
-callbacks.s: callbacks.c.s
-
-.PHONY : callbacks.s
-
-# target to generate assembly for a file
-callbacks.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/callbacks.c.s
-.PHONY : callbacks.c.s
-
-compress.obj: compress.c.obj
-
-.PHONY : compress.obj
+.PHONY : enet.obj
 
 # target to build an object file
-compress.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/compress.c.obj
-.PHONY : compress.c.obj
+enet.c.obj:
+	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/enet.c.obj
+.PHONY : enet.c.obj
 
-compress.i: compress.c.i
+enet.i: enet.c.i
 
-.PHONY : compress.i
-
-# target to preprocess a source file
-compress.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/compress.c.i
-.PHONY : compress.c.i
-
-compress.s: compress.c.s
-
-.PHONY : compress.s
-
-# target to generate assembly for a file
-compress.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/compress.c.s
-.PHONY : compress.c.s
-
-host.obj: host.c.obj
-
-.PHONY : host.obj
-
-# target to build an object file
-host.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/host.c.obj
-.PHONY : host.c.obj
-
-host.i: host.c.i
-
-.PHONY : host.i
+.PHONY : enet.i
 
 # target to preprocess a source file
-host.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/host.c.i
-.PHONY : host.c.i
+enet.c.i:
+	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/enet.c.i
+.PHONY : enet.c.i
 
-host.s: host.c.s
+enet.s: enet.c.s
 
-.PHONY : host.s
-
-# target to generate assembly for a file
-host.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/host.c.s
-.PHONY : host.c.s
-
-list.obj: list.c.obj
-
-.PHONY : list.obj
-
-# target to build an object file
-list.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/list.c.obj
-.PHONY : list.c.obj
-
-list.i: list.c.i
-
-.PHONY : list.i
-
-# target to preprocess a source file
-list.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/list.c.i
-.PHONY : list.c.i
-
-list.s: list.c.s
-
-.PHONY : list.s
+.PHONY : enet.s
 
 # target to generate assembly for a file
-list.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/list.c.s
-.PHONY : list.c.s
-
-packet.obj: packet.c.obj
-
-.PHONY : packet.obj
-
-# target to build an object file
-packet.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/packet.c.obj
-.PHONY : packet.c.obj
-
-packet.i: packet.c.i
-
-.PHONY : packet.i
-
-# target to preprocess a source file
-packet.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/packet.c.i
-.PHONY : packet.c.i
-
-packet.s: packet.c.s
-
-.PHONY : packet.s
-
-# target to generate assembly for a file
-packet.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/packet.c.s
-.PHONY : packet.c.s
-
-peer.obj: peer.c.obj
-
-.PHONY : peer.obj
-
-# target to build an object file
-peer.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/peer.c.obj
-.PHONY : peer.c.obj
-
-peer.i: peer.c.i
-
-.PHONY : peer.i
-
-# target to preprocess a source file
-peer.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/peer.c.i
-.PHONY : peer.c.i
-
-peer.s: peer.c.s
-
-.PHONY : peer.s
-
-# target to generate assembly for a file
-peer.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/peer.c.s
-.PHONY : peer.c.s
-
-protocol.obj: protocol.c.obj
-
-.PHONY : protocol.obj
-
-# target to build an object file
-protocol.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/protocol.c.obj
-.PHONY : protocol.c.obj
-
-protocol.i: protocol.c.i
-
-.PHONY : protocol.i
-
-# target to preprocess a source file
-protocol.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/protocol.c.i
-.PHONY : protocol.c.i
-
-protocol.s: protocol.c.s
-
-.PHONY : protocol.s
-
-# target to generate assembly for a file
-protocol.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/protocol.c.s
-.PHONY : protocol.c.s
-
-unix.obj: unix.c.obj
-
-.PHONY : unix.obj
-
-# target to build an object file
-unix.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/unix.c.obj
-.PHONY : unix.c.obj
-
-unix.i: unix.c.i
-
-.PHONY : unix.i
-
-# target to preprocess a source file
-unix.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/unix.c.i
-.PHONY : unix.c.i
-
-unix.s: unix.c.s
-
-.PHONY : unix.s
-
-# target to generate assembly for a file
-unix.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/unix.c.s
-.PHONY : unix.c.s
-
-win32.obj: win32.c.obj
-
-.PHONY : win32.obj
-
-# target to build an object file
-win32.c.obj:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/win32.c.obj
-.PHONY : win32.c.obj
-
-win32.i: win32.c.i
-
-.PHONY : win32.i
-
-# target to preprocess a source file
-win32.c.i:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/win32.c.i
-.PHONY : win32.c.i
-
-win32.s: win32.c.s
-
-.PHONY : win32.s
-
-# target to generate assembly for a file
-win32.c.s:
-	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/win32.c.s
-.PHONY : win32.c.s
+enet.c.s:
+	cd /d "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release" && $(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/enet.c.s
+.PHONY : enet.c.s
 
 # Help Target
 help:
@@ -396,33 +180,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... enet
-	@echo ... callbacks.obj
-	@echo ... callbacks.i
-	@echo ... callbacks.s
-	@echo ... compress.obj
-	@echo ... compress.i
-	@echo ... compress.s
-	@echo ... host.obj
-	@echo ... host.i
-	@echo ... host.s
-	@echo ... list.obj
-	@echo ... list.i
-	@echo ... list.s
-	@echo ... packet.obj
-	@echo ... packet.i
-	@echo ... packet.s
-	@echo ... peer.obj
-	@echo ... peer.i
-	@echo ... peer.s
-	@echo ... protocol.obj
-	@echo ... protocol.i
-	@echo ... protocol.s
-	@echo ... unix.obj
-	@echo ... unix.i
-	@echo ... unix.s
-	@echo ... win32.obj
-	@echo ... win32.i
-	@echo ... win32.s
+	@echo ... enet.obj
+	@echo ... enet.i
+	@echo ... enet.s
 .PHONY : help
 
 

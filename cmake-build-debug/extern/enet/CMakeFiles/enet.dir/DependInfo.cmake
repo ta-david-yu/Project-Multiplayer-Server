@@ -4,21 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/callbacks.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/callbacks.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/compress.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/compress.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/host.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/host.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/list.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/list.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/packet.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/packet.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/peer.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/peer.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/protocol.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/protocol.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/unix.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/unix.c.obj"
-  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/win32.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/win32.c.obj"
+  "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet.c" "D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet/CMakeFiles/enet.dir/enet.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "ENET_DLL"
+  "WINVER=0x0601"
+  "_WIN32_WINNT=0x0601"
+  "enet_EXPORTS"
+  )
+
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../extern/enet/include"
   )
 
 # Targets to which this target links.

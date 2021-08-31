@@ -1,2 +1,3 @@
-D:\msys64\mingw64\bin\ar.exe qc ..\..\..\out\Release\libenet.a  CMakeFiles/enet.dir/callbacks.c.obj CMakeFiles/enet.dir/compress.c.obj CMakeFiles/enet.dir/host.c.obj CMakeFiles/enet.dir/list.c.obj CMakeFiles/enet.dir/packet.c.obj CMakeFiles/enet.dir/peer.c.obj CMakeFiles/enet.dir/protocol.c.obj CMakeFiles/enet.dir/unix.c.obj CMakeFiles/enet.dir/win32.c.obj
-D:\msys64\mingw64\bin\ranlib.exe ..\..\..\out\Release\libenet.a
+"D:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\enet.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe cr CMakeFiles\enet.dir/objects.a @CMakeFiles\enet.dir\objects1.rsp
+D:\msys64\mingw64\bin\clang.exe  -static -O3 -DNDEBUG  -shared -o ..\..\..\out\Release\enet.dll -Wl,--out-implib,..\..\..\out\Release\libenet.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\enet.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\enet.dir\linklibs.rsp

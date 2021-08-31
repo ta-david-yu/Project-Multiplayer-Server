@@ -24,7 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
@@ -46,7 +46,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
@@ -82,13 +82,15 @@
 				</MakeCommands>
 			</Target>
 			<Target title="enet">
-				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Debug/libenet.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Debug/enet.dll" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DENET_DLL"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
@@ -104,13 +106,15 @@
 				</MakeCommands>
 			</Target>
 			<Target title="enet/fast">
-				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Debug/libenet.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Debug/enet.dll" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug/extern/enet"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DENET_DLL"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
 					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
@@ -126,58 +130,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/callbacks.c">
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet.c">
 			<Option target="enet"/>
 		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/compress.c">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/host.c">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/callbacks.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/enet.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/list.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/protocol.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/time.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/types.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/unix.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/utility.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/win32.h">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/list.c">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/packet.c">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/peer.c">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/protocol.c">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/unix.c">
-			<Option target="enet"/>
-		</Unit>
-		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/win32.c">
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet.h">
 			<Option target="enet"/>
 		</Unit>
 		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/server.cpp">
