@@ -1,0 +1,4 @@
+"D:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/msys64/mingw64/bin/clang.exe -DCMAKE_CXX_COMPILER=D:/msys64/mingw64/bin/clang++.exe -G "CodeBlocks - MinGW Makefiles" "D:\Game Project\2021-Project-Arcade\Project-Multiplayer"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-debug

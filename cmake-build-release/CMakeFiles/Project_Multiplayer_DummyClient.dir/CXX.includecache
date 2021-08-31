@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../extern/enet/include/enet/callbacks.h
+stdlib.h
+-
+
+../extern/enet/include/enet/enet.h
+stdlib.h
+-
+enet/win32.h
+../extern/enet/include/enet/enet/win32.h
+enet/unix.h
+../extern/enet/include/enet/enet/unix.h
+enet/types.h
+../extern/enet/include/enet/enet/types.h
+enet/protocol.h
+../extern/enet/include/enet/enet/protocol.h
+enet/list.h
+../extern/enet/include/enet/enet/list.h
+enet/callbacks.h
+../extern/enet/include/enet/enet/callbacks.h
+
+../extern/enet/include/enet/list.h
+stdlib.h
+-
+
+../extern/enet/include/enet/protocol.h
+enet/types.h
+../extern/enet/include/enet/enet/types.h
+
+../extern/enet/include/enet/types.h
+
+../extern/enet/include/enet/unix.h
+stdlib.h
+-
+sys/time.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+unistd.h
+-
+
+../extern/enet/include/enet/win32.h
+stdlib.h
+-
+winsock2.h
+-
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/test_client.cpp
+iostream
+-
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/enet/enet.h
+

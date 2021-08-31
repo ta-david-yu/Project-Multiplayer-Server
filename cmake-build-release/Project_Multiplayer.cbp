@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project_Multiplayer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Macros\;CMake Files\extern\;CMake Files\extern\enet\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_Multiplayer">
+				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Release/Project_Multiplayer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="D:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="D:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="D:/msys64/mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 Project_Multiplayer"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_Multiplayer/fast">
+				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Release/Project_Multiplayer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="D:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="D:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="D:/msys64/mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 Project_Multiplayer/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enet">
+				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Release/libenet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="D:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="D:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="D:/msys64/mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 enet"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enet/fast">
+				<Option output="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/out/Release/libenet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="D:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="D:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="D:/msys64/mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 enet/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake-build-release/extern/enet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/callbacks.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/compress.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/host.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/callbacks.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/enet.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/list.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/protocol.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/time.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/types.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/unix.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/utility.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/include/enet/win32.h">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/list.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/packet.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/peer.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/protocol.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/unix.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/win32.c">
+			<Option target="enet"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/server.cpp">
+			<Option target="Project_Multiplayer"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/cmake/Macros/RedirectOutputTo.cmake">
+			<Option virtualFolder="CMake Files\cmake\Macros\"/>
+		</Unit>
+		<Unit filename="D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\enet\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

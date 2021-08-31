@@ -1,0 +1,144 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../extern/enet/include/enet/callbacks.h
+stdlib.h
+-
+
+../extern/enet/include/enet/enet.h
+stdlib.h
+-
+enet/win32.h
+../extern/enet/include/enet/enet/win32.h
+enet/unix.h
+../extern/enet/include/enet/enet/unix.h
+enet/types.h
+../extern/enet/include/enet/enet/types.h
+enet/protocol.h
+../extern/enet/include/enet/enet/protocol.h
+enet/list.h
+../extern/enet/include/enet/enet/list.h
+enet/callbacks.h
+../extern/enet/include/enet/enet/callbacks.h
+
+../extern/enet/include/enet/list.h
+stdlib.h
+-
+
+../extern/enet/include/enet/protocol.h
+enet/types.h
+../extern/enet/include/enet/enet/types.h
+
+../extern/enet/include/enet/time.h
+
+../extern/enet/include/enet/types.h
+
+../extern/enet/include/enet/unix.h
+stdlib.h
+-
+sys/time.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+unistd.h
+-
+
+../extern/enet/include/enet/utility.h
+
+../extern/enet/include/enet/win32.h
+stdlib.h
+-
+winsock2.h
+-
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/callbacks.c
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/compress.c
+string.h
+-
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/host.c
+string.h
+-
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/list.c
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/packet.c
+string.h
+-
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/peer.c
+string.h
+-
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/protocol.c
+stdio.h
+-
+string.h
+-
+enet/utility.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/utility.h
+enet/time.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/time.h
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/unix.c
+sys/types.h
+-
+sys/socket.h
+-
+sys/ioctl.h
+-
+sys/time.h
+-
+netinet/tcp.h
+-
+netdb.h
+-
+unistd.h
+-
+string.h
+-
+errno.h
+-
+time.h
+-
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+fcntl.h
+-
+poll.h
+-
+
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/win32.c
+enet/enet.h
+D:/Game Project/2021-Project-Arcade/Project-Multiplayer/extern/enet/enet/enet.h
+windows.h
+-
+mmsystem.h
+-
+
