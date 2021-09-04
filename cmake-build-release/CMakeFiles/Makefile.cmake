@@ -58,6 +58,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Client.dir/DependInfo.cmake"
+  "CMakeFiles/Project_Multiplayer.dir/DependInfo.cmake"
   "extern/enet/CMakeFiles/enet.dir/DependInfo.cmake"
   )

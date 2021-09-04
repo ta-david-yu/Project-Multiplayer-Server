@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Client
+# Target rules for targets named Project_Multiplayer
 
 # Build rule for target.
-Client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Client
-.PHONY : Client
+Project_Multiplayer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project_Multiplayer
+.PHONY : Project_Multiplayer
 
 # fast build rule for target.
-Client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/build
-.PHONY : Client/fast
+Project_Multiplayer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_Multiplayer.dir\build.make CMakeFiles/Project_Multiplayer.dir/build
+.PHONY : Project_Multiplayer/fast
 
 #=============================================================================
 # Target rules for targets named enet
@@ -155,32 +155,32 @@ enet/fast:
 	$(MAKE) $(MAKESILENT) -f extern\enet\CMakeFiles\enet.dir\build.make extern/enet/CMakeFiles/enet.dir/build
 .PHONY : enet/fast
 
-test_client.obj: test_client.cpp.obj
+server.obj: server.cpp.obj
 
-.PHONY : test_client.obj
+.PHONY : server.obj
 
 # target to build an object file
-test_client.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/test_client.cpp.obj
-.PHONY : test_client.cpp.obj
+server.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_Multiplayer.dir\build.make CMakeFiles/Project_Multiplayer.dir/server.cpp.obj
+.PHONY : server.cpp.obj
 
-test_client.i: test_client.cpp.i
+server.i: server.cpp.i
 
-.PHONY : test_client.i
+.PHONY : server.i
 
 # target to preprocess a source file
-test_client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/test_client.cpp.i
-.PHONY : test_client.cpp.i
+server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_Multiplayer.dir\build.make CMakeFiles/Project_Multiplayer.dir/server.cpp.i
+.PHONY : server.cpp.i
 
-test_client.s: test_client.cpp.s
+server.s: server.cpp.s
 
-.PHONY : test_client.s
+.PHONY : server.s
 
 # target to generate assembly for a file
-test_client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/test_client.cpp.s
-.PHONY : test_client.cpp.s
+server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_Multiplayer.dir\build.make CMakeFiles/Project_Multiplayer.dir/server.cpp.s
+.PHONY : server.cpp.s
 
 # Help Target
 help:
@@ -190,11 +190,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Client
+	@echo ... Project_Multiplayer
 	@echo ... enet
-	@echo ... test_client.obj
-	@echo ... test_client.i
-	@echo ... test_client.s
+	@echo ... server.obj
+	@echo ... server.i
+	@echo ... server.s
 .PHONY : help
 
 

@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmak
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Client.dir/all
+all: CMakeFiles/Project_Multiplayer.dir/all
 all: extern/enet/all
 
 .PHONY : all
@@ -83,7 +83,7 @@ preinstall: extern/enet/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Client.dir/clean
+clean: CMakeFiles/Project_Multiplayer.dir/clean
 clean: extern/enet/clean
 
 .PHONY : clean
@@ -107,31 +107,31 @@ extern/enet/clean: extern/enet/CMakeFiles/enet.dir/clean
 .PHONY : extern/enet/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Client.dir
+# Target rules for target CMakeFiles/Project_Multiplayer.dir
 
 # All Build rule for target.
-CMakeFiles/Client.dir/all: extern/enet/CMakeFiles/enet.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release\CMakeFiles" --progress-num=1,2 "Built target Client"
-.PHONY : CMakeFiles/Client.dir/all
+CMakeFiles/Project_Multiplayer.dir/all: extern/enet/CMakeFiles/enet.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_Multiplayer.dir\build.make CMakeFiles/Project_Multiplayer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_Multiplayer.dir\build.make CMakeFiles/Project_Multiplayer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release\CMakeFiles" --progress-num=1,2 "Built target Project_Multiplayer"
+.PHONY : CMakeFiles/Project_Multiplayer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Client.dir/rule: cmake_check_build_system
+CMakeFiles/Project_Multiplayer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release\CMakeFiles" 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Client.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Project_Multiplayer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Game Project\2021-Project-Arcade\Project-Multiplayer\cmake-build-release\CMakeFiles" 0
-.PHONY : CMakeFiles/Client.dir/rule
+.PHONY : CMakeFiles/Project_Multiplayer.dir/rule
 
 # Convenience name for target.
-Client: CMakeFiles/Client.dir/rule
+Project_Multiplayer: CMakeFiles/Project_Multiplayer.dir/rule
 
-.PHONY : Client
+.PHONY : Project_Multiplayer
 
 # clean rule for target.
-CMakeFiles/Client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Client.dir\build.make CMakeFiles/Client.dir/clean
-.PHONY : CMakeFiles/Client.dir/clean
+CMakeFiles/Project_Multiplayer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_Multiplayer.dir\build.make CMakeFiles/Project_Multiplayer.dir/clean
+.PHONY : CMakeFiles/Project_Multiplayer.dir/clean
 
 #=============================================================================
 # Target rules for target extern/enet/CMakeFiles/enet.dir
